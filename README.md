@@ -10,5 +10,5 @@ Purpose - a simple two module app. The public front-end (www) will respond to re
 
 ## A conceptual overview of the application.
 
-![Conseptual diagram](./docs/smalldiagram.png)
+![Conseptual diagram](./docs/smalldiagram.png) 
  
