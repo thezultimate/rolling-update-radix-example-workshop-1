@@ -71,7 +71,7 @@ Important to know:
 
 ### 1.1.6. Explore radixconfig.yaml
 
-1. Reading the [docs](https://github.com/equinor/radix-operator/blob/master/docs/radixconfig.md)
+1. Reading the [docs](https://github.com/equinor/radix-operator/blob/master/docs/radixconfig.md) [docs app](https://www.radix.equinor.com/docs/reference-radix-config/)
 2. Exploring the config file for the example app [./radixconfig.yaml](../radixconfig.yaml)
 
 ### 1.1.7. Creating the application on Radix
