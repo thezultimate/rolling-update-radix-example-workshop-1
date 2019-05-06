@@ -121,7 +121,8 @@ The Echo component is exposing metrics on the /metrics endpoint. These metrics a
 ### 1.3.1. Getting help
 
 - Slack ([#omnia_radix](https://equinor.slack.com/messages/C8U7XGGAJ), [#omnia_radix_support](https://equinor.slack.com/messages/CBKM6N2JY))
-- Radix Console -  https://console.radix.equinor.com/
+- Radix [Raidx front app](https://www.radix.equinor.com/)
+- Radix on [github.com](https://github.com/equinor/radix-platform)
 
 ### 1.3.2. Getting started
 
