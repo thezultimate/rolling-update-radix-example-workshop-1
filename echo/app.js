@@ -48,6 +48,7 @@ app.use(function(err, req, res) {
     res.status(err.status || 500);
     res.set('Content-Type', 'application/json');
     res.send({});
+    //
 });
 
 module.exports = app;
