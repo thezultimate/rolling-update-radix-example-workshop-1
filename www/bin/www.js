@@ -87,5 +87,5 @@ function onListening() {
         ? 'pipe ' + addr
         : 'port ' + addr.port;
     debug('Listening on ' + bind);
-    //console.log('');
+    console.log('Heisan CIT MC');
 }
