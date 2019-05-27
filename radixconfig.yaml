@@ -6,7 +6,10 @@ spec:
   environments:
     - name: production
       build:
-        from: master
+        from: release
+    - name: development
+      build:
+        from: master 
   components:
     - name: echo
       src: ./echo
