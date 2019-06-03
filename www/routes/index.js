@@ -7,4 +7,8 @@ router.get('/', function(req, res) {
     res.render('index', { title: 'Radix Workshop' });
 });
 
+router.get('/healthz', function(req, res){
+    res.status(200).send();
+});
+
 module.exports = router;

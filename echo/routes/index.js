@@ -21,4 +21,8 @@ router.get('/', function(req, res) {
     res.status(200).send(responseObject);
 });
 
+router.get('/healthz', function(req, res){
+    res.status(200).send();
+});
+
 module.exports = router;
