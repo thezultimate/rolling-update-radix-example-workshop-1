@@ -7,6 +7,9 @@ spec:
     - name: production
       build:
         from: master
+    - name: development
+      build:
+        from: development
   components:
     - name: echo
       src: ./echo
@@ -27,7 +30,7 @@ spec:
             limits:
               memory: "50Mi"
               cpu: "20m"
-          replicas: 4
+          replicas: 2
      # secrets:
       # - MY_SUPER_SECRET
     - name: www
