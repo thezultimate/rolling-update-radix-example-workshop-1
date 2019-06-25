@@ -1,7 +1,7 @@
 apiVersion: radix.equinor.com/v1
 kind: RadixApplication
 metadata:
-  name: rolling-update
+  name: active-cluster
 spec:
   environments:
     - name: production
