@@ -54,6 +54,6 @@ spec:
 #              memory: "54Mi"
 #              cpu: "20m"
 #          replicas: 1
-  dnsAppAlias:
-    environment: production
-    component: www
+#  dnsAppAlias:
+#    environment: production
+#    component: www
