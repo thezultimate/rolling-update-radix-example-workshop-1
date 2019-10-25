@@ -1,7 +1,7 @@
 apiVersion: radix.equinor.com/v1
 kind: RadixApplication
 metadata:
-  name: active-cluster
+  name: delete-deploy-cascade
 spec:
   environments:
     - name: production
