@@ -33,27 +33,27 @@ spec:
           replicas: 2
      # secrets:
       # - MY_SUPER_SECRET
-    - name: www
-      src: ./www
-      ports:
-       - name: http
-         port: 3001
-      public: true
-      environmentConfig:
-        - environment: production
-          variables:
-            PORT: 3001
-            NODE_ENV: "production"
-            ECHO_URL: "http://echo:3000"
-          monitoring: false
-          resources:
-            requests:
-              memory: "50Mi"
-              cpu: "10m"
-            limits:
-              memory: "54Mi"
-              cpu: "20m"
-          replicas: 1
+#    - name: www
+#      src: ./www
+#      ports:
+#       - name: http
+#         port: 3001
+#      public: true
+#      environmentConfig:
+#        - environment: production
+#          variables:
+#            PORT: 3001
+#            NODE_ENV: "production"
+#            ECHO_URL: "http://echo:3000"
+#          monitoring: false
+#          resources:
+#            requests:
+#              memory: "50Mi"
+#              cpu: "10m"
+#            limits:
+#              memory: "54Mi"
+#              cpu: "20m"
+#          replicas: 1
   dnsAppAlias:
     environment: production
     component: www
